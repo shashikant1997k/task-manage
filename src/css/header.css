@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  position: sticky;
+  background: white;
+  top: 0;
+  z-index: 100;
+  color: black;
+  box-shadow: 1px 1px 1px 3px #e6e6e6;
+  justify-content: space-between;
+  padding: 0px 25px;
+}
+
+.header > h2 {
+  cursor: default;
+}
+
+@media only screen and (max-width: 600px) {
+  .header > h2 {
+    font-size: 22px;
+  }
+}
